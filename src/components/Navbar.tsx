@@ -51,10 +51,11 @@ export default function Navbar() {
           </span>
         </div>
         <div className="flex items-center gap-3">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><FacebookIcon size={14} /></a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><InstagramIcon size={14} /></a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><LinkedinIcon size={14} /></a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><TwitterIcon size={14} /></a>
+          
+          <a href="https://www.instagram.com/provetusdigital/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><InstagramIcon size={14} /></a>
+          <a href="https://www.linkedin.com/in/proventus-digital-a0a432281/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><LinkedinIcon size={14} /></a>
+          <a href="https://x.com/Proventus_Ltd" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><TwitterIcon size={14} /></a>
+          <a href="https://www.facebook.com/provetusdigital/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors"><FacebookIcon size={14} /></a>
         </div>
       </div>
 

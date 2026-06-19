@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon } from "lucide-react";
+import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon,} from "lucide-react";
 
 const services = [
   "Strategy & Planning",
@@ -55,10 +55,10 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               {[
-                { icon: <FacebookIcon size={16} />, href: "https://www.facebook.com", label: "Facebook" },
-                { icon: <InstagramIcon size={16} />, href: "https://www.instagram.com", label: "Instagram" },
-                { icon: <LinkedinIcon size={16} />, href: "https://www.linkedin.com", label: "LinkedIn" },
-                { icon: <TwitterIcon size={16} />, href: "https://www.twitter.com", label: "Twitter" },
+                { icon: <InstagramIcon size={16} />, href: "https://www.instagram.com/provetusdigital/", label: "Instagram" },
+                { icon: <LinkedinIcon size={16} />, href: "https://www.linkedin.com/in/proventus-digital-a0a432281/", label: "LinkedIn" },
+                { icon: <TwitterIcon size={16} />, href: "https://x.com/Proventus_Ltd", label: "Twitter" },
+                { icon: <FacebookIcon size={16} />, href: "https://www.facebook.com/provetusdigital", label: "Facebook" },
               ].map(({ icon, href, label }) => (
                 <a
                   key={label}
@@ -159,7 +159,7 @@ export default function Footer() {
                 <div className="text-xs text-white/30 uppercase tracking-widest mb-1">
                   Location
                 </div>
-                <span>Nairobi, Kenya</span>
+                <span> Transnational Plaza 2nd Floor, Nairobi, Kenya</span>
               </div>
               <div>
                 <div className="text-xs text-white/30 uppercase tracking-widest mb-1">

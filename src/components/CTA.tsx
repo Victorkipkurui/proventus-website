@@ -98,10 +98,10 @@ export default function CTA() {
               <div className="text-white/40 text-xs mb-3">Follow us</div>
               <div className="flex gap-3">
                 {[
-                  { icon: FacebookIcon, href: "https://www.facebook.com" },
-                  { icon: InstagramIcon, href: "https://www.instagram.com" },
-                  { icon: LinkedinIcon, href: "https://www.linkedin.com" },
-                  { icon: TwitterIcon, href: "https://www.twitter.com" },
+                  { icon: InstagramIcon, href: "https://www.instagram.com/provetusdigital/" },
+                  { icon: LinkedinIcon, href: "https://www.linkedin.com/in/proventus-digital-a0a432281/" },
+                  { icon: TwitterIcon, href: "https://x.com/Proventus_Ltd" },
+                  { icon: FacebookIcon, href: "https://www.facebook.com/provetusdigital" },
                 ].map(({ icon: Icon, href }) => (
                   <a
                     key={href}

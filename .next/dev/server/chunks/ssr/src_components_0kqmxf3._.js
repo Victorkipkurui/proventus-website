@@ -1303,15 +1303,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 const slides = [
     {
-        src: "/images/dooh/dooh_1.jpg",
+        src: "/images/dooh/dooh_1.JPG",
         alt: "DOOH screen at a premium mall"
     },
     {
-        src: "/images/dooh/dooh_2.jpg",
+        src: "/images/dooh/dooh_2.JPG",
         alt: "DOOH screen at a lifestyle centre"
     },
     {
-        src: "/images/dooh/dooh_3.jpg",
+        src: "/images/dooh/dooh_3.JPG",
         alt: "DOOH screen on a high-traffic road"
     }
 ];

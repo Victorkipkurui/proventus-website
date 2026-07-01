@@ -1376,15 +1376,15 @@ var _s = __turbopack_context__.k.signature();
 ;
 const slides = [
     {
-        src: "/images/dooh/dooh_1.jpg",
+        src: "/images/dooh/dooh_1.JPG",
         alt: "DOOH screen at a premium mall"
     },
     {
-        src: "/images/dooh/dooh_2.jpg",
+        src: "/images/dooh/dooh_2.JPG",
         alt: "DOOH screen at a lifestyle centre"
     },
     {
-        src: "/images/dooh/dooh_3.jpg",
+        src: "/images/dooh/dooh_3.JPG",
         alt: "DOOH screen on a high-traffic road"
     }
 ];

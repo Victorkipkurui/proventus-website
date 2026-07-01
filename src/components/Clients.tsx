@@ -1,10 +1,12 @@
 'use client';
 const clients = [
-  { name: "Nation Media Group", logo: "/images/nmg.png" },
+  { name: "Nation Media Group", logo: "/images/nmgm.png" },
   { name: "Safaricom", logo: "/images/safaricom.png" },
-  { name: "Kenya Power", logo: "/images/kplc.png" },
+  { name: "Kenya Power", logo: "/images/kpower.png" },
   { name: "Naivas", logo: "/images/naivas.png" },
+   { name: "Quickmart", logo: "/images/quickmart.png" },
   { name: "Showmax", logo: "/images/showmax.png" },
+   { name: "Ubereats", logo: "/images/ubereats.png" },
   { name: "Aga Khan University Hospital", logo: "/images/agakhan.png" },
   { name: "University of Nairobi", logo: "/images/uon.png" },
   { name: "Kenya Ports Authority", logo: "/images/kpa.png" },
@@ -14,8 +16,9 @@ const clients = [
   { name: "Rabba", logo: "/images/rabba.png" },
   { name: "Prontex", logo: "/images/prontex.png" },
   { name: "Wine & Bottle", logo: "/images/w&b.png" },
+   { name: "Mobi", logo: "/images/mobi.png" },
   { name: "Lexken", logo: "/images/lexken.png" },
-  { name: "Devolution Conference", logo: "/images/devocon.png" },
+  { name: "Devolution Conference", logo: "/images/conference.png" },
 ];
 
 export default function Clients() {

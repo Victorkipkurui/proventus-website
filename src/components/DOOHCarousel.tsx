@@ -38,7 +38,8 @@ export default function DOOHCarousel() {
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 1024px"
-              priority={i === 0}
+              loading="eager"
+              priority={i === index}
             />
           </div>
         ))}

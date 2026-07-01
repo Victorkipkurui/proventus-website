@@ -1422,7 +1422,8 @@ function DOOHCarousel() {
                             fill: true,
                             className: "object-cover",
                             sizes: "(max-width: 1024px) 100vw, 1024px",
-                            priority: i === 0
+                            loading: "eager",
+                            priority: i === index
                         }, void 0, false, {
                             fileName: "[project]/src/components/DOOHCarousel.tsx",
                             lineNumber: 35,
@@ -1447,12 +1448,12 @@ function DOOHCarousel() {
                     size: 20
                 }, void 0, false, {
                     fileName: "[project]/src/components/DOOHCarousel.tsx",
-                    lineNumber: 53,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/DOOHCarousel.tsx",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1464,12 +1465,12 @@ function DOOHCarousel() {
                     size: 20
                 }, void 0, false, {
                     fileName: "[project]/src/components/DOOHCarousel.tsx",
-                    lineNumber: 61,
+                    lineNumber: 62,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/DOOHCarousel.tsx",
-                lineNumber: 55,
+                lineNumber: 56,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1481,12 +1482,12 @@ function DOOHCarousel() {
                         className: `h-2 rounded-full transition-all ${i === index ? "w-6 bg-gold" : "w-2 bg-white/60"}`
                     }, slide.src, false, {
                         fileName: "[project]/src/components/DOOHCarousel.tsx",
-                        lineNumber: 66,
+                        lineNumber: 67,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/DOOHCarousel.tsx",
-                lineNumber: 64,
+                lineNumber: 65,
                 columnNumber: 7
             }, this)
         ]
@@ -1517,7 +1518,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const clients = [
     {
         name: "Nation Media Group",
-        logo: "/images/nmg.png"
+        logo: "/images/nmgm.png"
     },
     {
         name: "Safaricom",
@@ -1525,15 +1526,23 @@ const clients = [
     },
     {
         name: "Kenya Power",
-        logo: "/images/kplc.png"
+        logo: "/images/kpower.png"
     },
     {
         name: "Naivas",
         logo: "/images/naivas.png"
     },
     {
+        name: "Quickmart",
+        logo: "/images/quickmart.png"
+    },
+    {
         name: "Showmax",
         logo: "/images/showmax.png"
+    },
+    {
+        name: "Ubereats",
+        logo: "/images/ubereats.png"
     },
     {
         name: "Aga Khan University Hospital",
@@ -1572,12 +1581,16 @@ const clients = [
         logo: "/images/w&b.png"
     },
     {
+        name: "Mobi",
+        logo: "/images/mobi.png"
+    },
+    {
         name: "Lexken",
         logo: "/images/lexken.png"
     },
     {
         name: "Devolution Conference",
-        logo: "/images/devocon.png"
+        logo: "/images/conference.png"
     }
 ];
 function Clients() {
@@ -1600,7 +1613,7 @@ function Clients() {
                             children: "Our Clientele"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Clients.tsx",
-                            lineNumber: 30,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1612,13 +1625,13 @@ function Clients() {
                                     children: "Leading Brands"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Clients.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 37,
                                     columnNumber: 24
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Clients.tsx",
-                            lineNumber: 33,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1626,20 +1639,20 @@ function Clients() {
                             children: "From global telcos to national broadcasters, financial institutions, and retail chains — brands across Kenya trust Proventus to make them seen."
                         }, void 0, false, {
                             fileName: "[project]/src/components/Clients.tsx",
-                            lineNumber: 36,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "gold-line mx-auto mt-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Clients.tsx",
-                            lineNumber: 41,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Clients.tsx",
-                    lineNumber: 29,
+                    lineNumber: 32,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1658,22 +1671,22 @@ function Clients() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Clients.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 55,
                                     columnNumber: 17
                                 }, this)
                             }, i, false, {
                                 fileName: "[project]/src/components/Clients.tsx",
-                                lineNumber: 48,
+                                lineNumber: 51,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Clients.tsx",
-                        lineNumber: 46,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Clients.tsx",
-                    lineNumber: 45,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1703,7 +1716,7 @@ function Clients() {
                                     children: sector.emoji
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Clients.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 81,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1711,29 +1724,29 @@ function Clients() {
                                     children: sector.label
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Clients.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 82,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, sector.label, true, {
                             fileName: "[project]/src/components/Clients.tsx",
-                            lineNumber: 74,
+                            lineNumber: 77,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Clients.tsx",
-                    lineNumber: 67,
+                    lineNumber: 70,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Clients.tsx",
-            lineNumber: 27,
+            lineNumber: 30,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Clients.tsx",
-        lineNumber: 26,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 }

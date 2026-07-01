@@ -120,11 +120,11 @@ export default function Hero() {
             </div>
 
             {/* Floating stat cards */}
-            <div className="absolute -bottom-6 -left-6 bg-gold rounded-xl p-4 shadow-2xl z-20">
-              <div className="text-navy font-black text-2xl font-display">
+            <div className="absolute -bottom-6 -right-6 max-w-[170px] bg-gold rounded-xl p-3 sm:p-4 shadow-[0_20px_45px_rgba(0,0,0,0.25)] border border-navy/10 z-20">
+              <div className="text-navy font-black text-xl sm:text-2xl font-display leading-none">
                 100%
               </div>
-              <div className="text-navy/70 text-xs font-semibold">
+              <div className="text-navy/70 text-[11px] sm:text-xs font-semibold mt-1 leading-tight">
                 End-to-End Capability
               </div>
             </div>

@@ -1,4 +1,5 @@
 import { MapPin, Clock, TrendingUp, RefreshCw } from "lucide-react";
+import DOOHCarousel from "./DOOHCarousel";
 
 const locations = [
   {
@@ -62,6 +63,9 @@ export default function DOOH() {
           </p>
           <div className="gold-line mx-auto mt-6" />
         </div>
+
+        {/* DOOH screens carousel */}
+        <DOOHCarousel />
 
         {/* Location cards */}
         <div className="grid md:grid-cols-3 gap-6 mb-14">

@@ -1457,7 +1457,7 @@ const clients = [
     },
     {
         name: "Aga Khan University Hospital",
-        logo: "/images/agakhan.png"
+        logo: "/images/aga-khan.png"
     },
     {
         name: "University of Nairobi",

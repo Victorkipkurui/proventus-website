@@ -7,7 +7,7 @@ const clients = [
    { name: "Quickmart", logo: "/images/quickmart.png" },
   { name: "Showmax", logo: "/images/showmax.png" },
    { name: "Ubereats", logo: "/images/ubereats.png" },
-  { name: "Aga Khan University Hospital", logo: "/images/agakhan.png" },
+  { name: "Aga Khan University Hospital", logo: "/images/aga-khan.png" },
   { name: "University of Nairobi", logo: "/images/uon.png" },
   { name: "Kenya Ports Authority", logo: "/images/kpa.png" },
   { name: "Silentnight", logo: "/images/silentnight.png" },
